@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">hackathonapp</string>
+    <string name="app_name">TeamUp</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="enter_start">Enter</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="TabOne">Easy</string>
+    <string name="TabTwo">Smooth</string>
+    <string name="TabThree">Fast</string>
+    <string name="easy_text_two">Enjoy the simplicity of working with your team, from the cloud.</string>
+    <string name="easy_text_one">Organization. Simplified.</string>
 
 </resources>
