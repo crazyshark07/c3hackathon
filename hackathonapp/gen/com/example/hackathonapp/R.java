@@ -25,13 +25,14 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f080006;
-        public static final int imageView1=0x7f080004;
+        public static final int action_settings=0x7f080007;
+        public static final int imageView1=0x7f080005;
         public static final int pager=0x7f080000;
         public static final int pager_title_strip=0x7f080001;
-        public static final int textView1=0x7f080002;
-        public static final int textView2=0x7f080003;
-        public static final int textView3=0x7f080005;
+        public static final int section_label=0x7f080002;
+        public static final int textView1=0x7f080003;
+        public static final int textView2=0x7f080004;
+        public static final int textView3=0x7f080006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -39,9 +40,8 @@ public final class R {
         public static final int tab_one=0x7f030002;
     }
     public static final class menu {
-        public static final int fullscreen=0x7f070000;
-        public static final int main=0x7f070001;
-        public static final int welcome=0x7f070002;
+        public static final int main=0x7f070000;
+        public static final int welcome=0x7f070001;
     }
     public static final class string {
         public static final int TabOne=0x7f050005;
@@ -53,7 +53,11 @@ public final class R {
         public static final int easy_text_two=0x7f050008;
         public static final int enter_start=0x7f050003;
         public static final int hello_world=0x7f050002;
+        public static final int title_activity_check=0x7f05000a;
         public static final int title_activity_welcome=0x7f050004;
+        public static final int title_section1=0x7f05000b;
+        public static final int title_section2=0x7f05000c;
+        public static final int title_section3=0x7f05000d;
     }
     public static final class style {
         /** 

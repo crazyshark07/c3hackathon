@@ -22,10 +22,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name="com.example.hackathonapp.Welcome"
             android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.example.hackathonapp.Check"
+            android:label="@string/title_activity_check" >
         </activity>
     </application>
 
