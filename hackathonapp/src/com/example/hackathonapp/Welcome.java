@@ -1,6 +1,7 @@
 package com.example.hackathonapp;
 
 import java.util.Locale;
+import java.util.zip.Inflater;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -82,18 +83,22 @@ public class Welcome extends FragmentActivity {
 		@Override
 		public int getCount() {
 			// Show 3 total pages.
-			return 3;
+			return 1;
 		}
 
 		@Override
 		public CharSequence getPageTitle(int position) {
 			Locale l = Locale.getDefault();
+			int resId = 0;
 			switch (position) {
 			case 0:
+				resId = R.layout.tab_one;
 				return getString(R.string.TabOne).toUpperCase(l);
 			case 1:
+				resId = R.layout.tab_two;
 				return getString(R.string.TabTwo).toUpperCase(l);
 			case 2:
+				resId = R.layout.tab_three;
 				return getString(R.string.TabThree).toUpperCase(l);
 			}
 			return null;
@@ -117,6 +122,7 @@ public class Welcome extends FragmentActivity {
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
+			
 			View rootView = inflater.inflate(R.layout.tab_one,
 					container, false);
 			TextView dummyTextView = (TextView) rootView
@@ -124,7 +130,8 @@ public class Welcome extends FragmentActivity {
 			dummyTextView.setText(Integer.toString(getArguments().getInt(
 					ARG_SECTION_NUMBER)));
 			return rootView;
+					
+		}
+				
 		}
 	}
-
-}
